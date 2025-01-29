@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
+import { CheckCircle2 } from "lucide-react";
 
 const WhatWeDo = () => {
   const services = [
@@ -41,7 +42,17 @@ const WhatWeDo = () => {
         <div className="lg:w-1/2">
           <ul className="list-disc list-inside text-white text-xl space-y-2">
             {services.map((service, index) => (
-              <li key={index}>{service}</li>
+              <motion.li
+                key={index}
+                initial={{ opacity: 0, x: -20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.1 }}
+                className="flex items-center duration-300"
+              >
+                <CheckCircle2 className="text-[#FB00AB] mr-3 -mt-8 md:-mt-4 w-6 h-6 flex-shrink-0" />
+                <span className="text-lg sm:text-xl">{service}</span>
+              </motion.li>
             ))}
           </ul>
         </div>

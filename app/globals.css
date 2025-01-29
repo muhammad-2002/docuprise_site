@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-dark: #2D2D2D;
+  --color-darker: #1E1E2E;
+  --color-gradient-start: #1E1E2E;
+  --color-gradient-end: #3A3A4E;
+  --color-white: #FFFFFF;
+  --color-1: #707073;
+  --color-2: #B100FF;
+  --color-3: #fffffe;
+  --color-4: #89898d;
+  --color-5: #575759;
+  --color-6: #c1133f;
+}
+
+@layer base {
+  body {
+    @apply bg-[#1E1E2E] text-white;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply text-white hover:text-[#B100FF] transition-colors duration-200;
+  }
+
+  .dropdown {
+    @apply absolute top-full left-0 mt-1 w-48 bg-[#2D2D2D] rounded-md shadow-lg py-1 z-50 hidden group-hover:block;
+  }
+
+  .section-title {
+    @apply text-3xl font-bold mb-6 text-white;
+  }
+
+  .card {
+    @apply bg-[#2D2D2D] rounded-lg p-6 shadow-lg hover:shadow-[#B100FF]/20 transition-all duration-300;
+  }
+
+  .input-field {
+    @apply w-full px-4 py-2 bg-[#2D2D2D] border border-gray-700 rounded-lg focus:outline-none focus:border-[#B100FF] text-white;
+  }
+
+  .button {
+    @apply px-6 py-3 bg-[#B100FF] text-white rounded-lg hover:bg-[#8A00CC] transition-colors duration-200;
+  }
+
+  .team-card {
+    @apply relative overflow-hidden rounded-lg bg-[#2D2D2D];
+  }
+
+  .team-card-overlay {
+    @apply absolute inset-0 bg-black/60 opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-center justify-center;
+  }
+
+  .social-icon {
+    @apply text-white hover:text-[#B100FF] transition-colors duration-200;
+  }
+}

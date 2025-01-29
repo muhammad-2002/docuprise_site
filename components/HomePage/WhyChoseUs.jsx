@@ -48,7 +48,9 @@ const WhyChooseUs = () => {
       transition={{ duration: 2 }}
       className="why-choose-us-container md:w-[90%] mx-auto px-4 py-5  text-center"
     >
-      <h2 className="text-4xl font-bold text-white mb-8">Why Choose Us</h2>
+      <h2 className="text-4xl font-bold text-white mb-8">
+        Why Choose Docuprise AI?
+      </h2>
       <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 text-white gap-6">
         {cardsData.map((card, index) => (
           <div

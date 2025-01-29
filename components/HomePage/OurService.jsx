@@ -21,7 +21,7 @@ const WhatWeDo = () => {
       className="what-we-do-container py-12 px-4 mx-auto md:w-[90%]"
     >
       <h2 className="text-4xl font-extrabold text-center text-white mb-8">
-        What We Do
+        What We Do?
       </h2>
       <div className="flex flex-col lg:flex-row items-center justify-center gap-6 md:gap-12 ">
         {/* Image Section */}

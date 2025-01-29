@@ -23,9 +23,9 @@ const WhatWeDo = () => {
       <h2 className="text-4xl font-extrabold text-center text-white mb-8">
         What We Do
       </h2>
-      <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-12 ">
+      <div className="flex flex-col lg:flex-row items-center justify-center gap-6 md:gap-12 ">
         {/* Image Section */}
-        <div className="md:w-[40%] text-center ">
+        <div className="lg:w-[40%] text-center ">
           <motion.div whileHover={{ scale: 1.05 }}>
             <Image
               src="/what-i-do.jpg"
@@ -38,7 +38,7 @@ const WhatWeDo = () => {
         </div>
 
         {/* Bullet Points Section */}
-        <div className="md:w-1/2">
+        <div className="lg:w-1/2">
           <ul className="list-disc list-inside text-white text-xl space-y-2">
             {services.map((service, index) => (
               <li key={index}>{service}</li>

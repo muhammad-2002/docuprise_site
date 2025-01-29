@@ -18,7 +18,7 @@ export default function Navbar() {
         </div>
 
         {/* Navigation Links */}
-        <div className="hidden md:flex space-x-6  items-center">
+        <div className="hidden font-semibold md:flex space-x-6  items-center">
           <Link
             href="/"
             className="text-white hover:font-medium hover:text-[#cc2684] transition"

@@ -58,10 +58,10 @@ const WhyChooseUs = () => {
             <button className="border-solid  rounded-lg p-3 hover:scale-105 text-center ">
               <Image src={card.icon} alt="icon" width={50} height={50}></Image>
             </button>
-            <h3 className="card-title  text-xl font-bold mt-2  mb-3">
+            <h3 className="card-title  text-[25px] font-bold mt-2  mb-3">
               {card.title}
             </h3>
-            <p className="card-description font-normal text-lg ">
+            <p className="card-description font-normal text-xl ">
               {card.description}
             </p>
           </div>

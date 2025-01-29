@@ -14,7 +14,7 @@ const ContactUsSection = () => {
         Ready to Transform Your Document Management?
       </h2>
       {/* Description */}
-      <p className="text-lg text-gray-300 mx-auto md:w-[80%] mb-6">
+      <p className="text-xl  text-white mx-auto md:w-[80%] mb-6">
         Let Docuprise AI simplify your workflows and tackle your most complex
         document management challenges. Whether you’re a business or a
         government agency, our AI-driven solutions are designed to save you
@@ -22,9 +22,10 @@ const ContactUsSection = () => {
         operations.
       </p>
       {/* Contact Us Button */}
+
       <Link
         href="/contact"
-        className="bg-[#fb00ab] text-white font-semibold px-6 py-2 rounded-full hover:bg-[#cc028c] transition"
+        className="bg-gradient-to-br from-pink-600 via-purple-700 to-blue-400 text-white px-6 py-3 font-bold rounded-lg text-lg transition duration-300 hover:bg-gradient-to-br hover:from-blue-400 hover:to-purple-700"
       >
         Contact Us
       </Link>

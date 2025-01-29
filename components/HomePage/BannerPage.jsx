@@ -32,7 +32,7 @@ export default function BannerPage() {
             excellence.
           </p>
           <div className="gap-4 flex justify-center items-center">
-            <button className="bg-gradient-to-br from-pink-600 via-purple-700 to-blue-400 text-white px-6 py-3 rounded-lg text-lg transition duration-300 hover:bg-gradient-to-br hover:from-blue-400 hover:to-purple-700">
+            <button className="bg-gradient-to-br from-pink-600 via-purple-700 to-blue-400 text-white px-6 py-3 rounded-lg text-lg transition duration-300 hover:bg-gradient-to-br hover:from-blue-400 hover:to-purple-700 font-bold">
               Get Started
             </button>
           </div>

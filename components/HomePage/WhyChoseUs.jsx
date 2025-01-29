@@ -45,7 +45,7 @@ const WhyChooseUs = () => {
     <motion.div
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.9 }}
+      transition={{ duration: 2 }}
       className="why-choose-us-container md:w-[90%] mx-auto px-4 py-5  text-center"
     >
       <h2 className="text-4xl font-bold text-white mb-8">Why Choose Us</h2>

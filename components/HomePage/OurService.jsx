@@ -16,7 +16,7 @@ const WhatWeDo = () => {
     <motion.div
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.9 }}
+      transition={{ duration: 2 }}
       viewport={{ once: true }}
       className="what-we-do-container py-12 px-4 mx-auto md:w-[90%]"
     >

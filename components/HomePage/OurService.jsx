@@ -28,7 +28,7 @@ const WhatWeDo = () => {
         <div className="lg:w-[40%] text-center ">
           <motion.div whileHover={{ scale: 1.05 }}>
             <Image
-              src="/what-i-do.jpg"
+              src="/what-i-do.jpeg"
               alt="What We Do"
               width={500}
               height={600}

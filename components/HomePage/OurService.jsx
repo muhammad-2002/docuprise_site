@@ -25,12 +25,12 @@ const WhatWeDo = () => {
       </h2>
       <div className="flex flex-col lg:flex-row items-center justify-center gap-6 md:gap-12 ">
         {/* Image Section */}
-        <div className="lg:w-[40%] text-center ">
+        <div className="lg:w-[50%] text-center ">
           <motion.div whileHover={{ scale: 1.05 }}>
             <Image
               src="/what-i-do.jpeg"
               alt="What We Do"
-              width={500}
+              width={600}
               height={600}
               className="rounded-xl  shadow-lg"
             />
